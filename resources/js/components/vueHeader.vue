@@ -9,7 +9,7 @@
 
 
 
-<style lenght="scss" scoped>
+<style lang="scss" scoped>
     .container {
         width: 100vw;
         padding: 20px;

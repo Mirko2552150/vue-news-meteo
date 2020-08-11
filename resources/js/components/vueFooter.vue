@@ -1,8 +1,7 @@
 <template>
 
 <div class="col-12">
-    <vueColFooter v-for="(dato, index) in dati" :key="index" :data="dato" class="col-6">
-    </vueColFooter>
+    <vueColFooter v-for="(dato, index) in dati" :key="index" :data="dato" class="col-6"></vueColFooter>
 </div>
 
 </template>
@@ -35,3 +34,7 @@
             }
         }
 </script>
+
+<style lang="scss">
+
+</style>

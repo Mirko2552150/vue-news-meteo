@@ -3,7 +3,7 @@
         <ul>
             <li>{{data.name}}</li>
             <li><a :href="data.github">{{data.github}}</a></li>
-            <li> <a :href="data.linkedin">{{data.linkedin}}</a></li>
+            <li><a :href="data.linkedin">{{data.linkedin}}</a></li>
         </ul>
     </div>
 </template>
@@ -14,11 +14,20 @@
     };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+    .vueColFooter {
+
+    }
     ul {
-        color: red;
+        color: white;
     }
     li {
         list-style: none;
+        text-align: center;
+
+
+    }
+    a {
+      color: white;
     }
 </style>
